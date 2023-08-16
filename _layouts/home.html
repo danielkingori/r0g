@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+	Celebrating 10 years!
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">View major highlights</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+<div class="inner">
+    <header class="major">
+        <h2>2012</h2>
+    </header>
+</div>
+        <!--Two-->
+        {% include tiles.html %}
+
+        <!--three-->
+        <div class="inner">
+            <header class="major">
+                <h2>2013</h2>
+            </header>
+        </div>
+        <!--four-->
+        {% include tiles.html %}
+        
+
+        <!-- five -->
+        <section id="two">
+            <div class="inner">
+                <header class="major">
+                    <h2>Massa libero</h2>
+                </header>
+                <p>{{ content }}</p>
+                <ul class="actions">
+                    <li><a href="landing.html" class="button next">Get Started</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
