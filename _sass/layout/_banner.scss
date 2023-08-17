@@ -29,11 +29,12 @@
 			@include vendor('transition-delay', '0.75s');
 			@include vendor('pointer-events', 'none');
 			background-color: _palette(bg);
+			// background-color: #000000;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.75;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -41,7 +42,7 @@
 		}
 
 		h1 {
-			font-size: 3.25em;
+			font-size: 2.9em;
 		}
 
 		> .inner {

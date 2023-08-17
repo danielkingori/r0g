@@ -1,9 +1,13 @@
 ---
 layout: post
-title: Ipsum
-description: Nisl sed aliquam
-image: assets/images/pic04.jpg
+title: Magna
+description: Lorem etiam nullam
+image: assets/images/pic03.jpg
+year: 2013
+
 ---
+
+![test image]({{ site.url | absolute_path}}/assets/images/pic03.jpg)
 
 Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.
 Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat.
